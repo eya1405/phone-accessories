@@ -1,0 +1,8 @@
+com\phonegear\favorites\FavoritesApplication.class
+com\phonegear\favorites\config\RedisConfig.class
+com\phonegear\favorites\security\JwtAuthFilter.class
+com\phonegear\favorites\controller\FavoriteController.class
+com\phonegear\favorites\service\FavoriteService.class
+com\phonegear\favorites\security\MutableHttpServletRequest.class
+com\phonegear\favorites\model\Favorite.class
+com\phonegear\favorites\repository\FavoriteRepository.class

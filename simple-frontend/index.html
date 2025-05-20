@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneGear - Premium Phone Accessories</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a {
+            margin-left: 1rem;
+            text-decoration: none;
+            color: #333;
+            font-size: 0.9rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-color: #f3f4f6;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            color: #6b7280;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #111827;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 0.375rem;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.875rem;
+        }
+        .btn:hover {
+            background-color: #1f2937;
+        }
+        .products {
+            padding: 4rem 0;
+        }
+        .products h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .product-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+        .product-image {
+            height: 200px;
+            background-color: #f3f4f6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .product-info {
+            padding: 1rem;
+        }
+        .product-name {
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        .product-price {
+            font-weight: bold;
+        }
+        footer {
+            background-color: white;
+            border-top: 1px solid #e5e7eb;
+            padding: 2rem 0;
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">PhoneGear</a>
+            <nav>
+                <a href="#">Products</a>
+                <a href="#">Categories</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Premium Phone Accessories</h1>
+            <p>Discover our wide range of high-quality phone cases, chargers, screen protectors, and more.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="products container">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <div>Product Image</div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Premium Silicone Case for iPhone 14</div>
+                    <div class="product-price">$49.99</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <div>Product Image</div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">20W Fast Charger for Samsung</div>
+                    <div class="product-price">$79.99</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <div>Product Image</div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Tempered Glass Screen Protector</div>
+                    <div class="product-price">$29.99</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <div>Product Image</div>
+                </div>
+                <div class="product-info">
+                    <div class="product-name">Wireless Earbuds</div>
+                    <div class="product-price">$149.99</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 PhoneGear. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

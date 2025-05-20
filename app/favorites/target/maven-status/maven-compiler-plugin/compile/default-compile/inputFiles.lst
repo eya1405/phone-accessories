@@ -1,0 +1,8 @@
+C:\Users\najah\Downloads\ecommerce-microservices\app\favorites\src\main\java\com\phonegear\favorites\service\FavoriteService.java
+C:\Users\najah\Downloads\ecommerce-microservices\app\favorites\src\main\java\com\phonegear\favorites\model\Favorite.java
+C:\Users\najah\Downloads\ecommerce-microservices\app\favorites\src\main\java\com\phonegear\favorites\controller\FavoriteController.java
+C:\Users\najah\Downloads\ecommerce-microservices\app\favorites\src\main\java\com\phonegear\favorites\FavoritesApplication.java
+C:\Users\najah\Downloads\ecommerce-microservices\app\favorites\src\main\java\com\phonegear\favorites\config\RedisConfig.java
+C:\Users\najah\Downloads\ecommerce-microservices\app\favorites\src\main\java\com\phonegear\favorites\repository\FavoriteRepository.java
+C:\Users\najah\Downloads\ecommerce-microservices\app\favorites\src\main\java\com\phonegear\favorites\security\JwtAuthFilter.java
+C:\Users\najah\Downloads\ecommerce-microservices\app\favorites\src\main\java\com\phonegear\favorites\security\MutableHttpServletRequest.java

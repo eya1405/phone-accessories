@@ -1,0 +1,58 @@
+export const featuredProducts = [
+  {
+    id: "1",
+    name: "Premium Silicone Case for iPhone 14",
+    price: 49.99,
+    image: "/placeholder.svg?height=300&width=300",
+    category: "Cases",
+  },
+  {
+    id: "2",
+    name: "20W Fast Charger for Samsung",
+    price: 79.99,
+    image: "/placeholder.svg?height=300&width=300",
+    category: "Chargers",
+  },
+  {
+    id: "3",
+    name: "Tempered Glass Screen Protector",
+    price: 29.99,
+    image: "/placeholder.svg?height=300&width=300",
+    category: "Screen Protectors",
+  },
+  {
+    id: "4",
+    name: "Wireless Earbuds",
+    price: 149.99,
+    image: "/placeholder.svg?height=300&width=300",
+    category: "Audio",
+  },
+  {
+    id: "5",
+    name: "Phone Stand with MagSafe",
+    price: 39.99,
+    image: "/placeholder.svg?height=300&width=300",
+    category: "Accessories",
+  },
+  {
+    id: "6",
+    name: "10,000mAh Power Bank",
+    price: 89.99,
+    image: "/placeholder.svg?height=300&width=300",
+    category: "Power Banks",
+  },
+  {
+    id: "7",
+    name: "Car Phone Mount",
+    price: 34.99,
+    image: "/placeholder.svg?height=300&width=300",
+    category: "Car Accessories",
+  },
+  {
+    id: "8",
+    name: "Bluetooth Speaker",
+    price: 129.99,
+    image: "/placeholder.svg?height=300&width=300",
+    category: "Audio",
+  },
+]
